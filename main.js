@@ -73,7 +73,7 @@ const perform = function(e){
     if(e.target.className.includes("fa-whatsapp"))
     {
         let x = e.target.parentElement.parentElement.parentElement.firstChild.nextSibling.lastChild.lastChild.innerText
-        window.open("https://wa.me/" + x)
+        window.open("https://wa.me/91" + x)
     }
 
 }
